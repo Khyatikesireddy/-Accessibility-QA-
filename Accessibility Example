@@ -1,0 +1,15 @@
+# Accessibility Test Cases – Sample
+
+**Test Case 1**  
+- **Scenario**: Verify all buttons are accessible via keyboard navigation  
+- **Steps**:  
+  1. Open the homepage  
+  2. Press `Tab` to move through buttons  
+- **Expected Result**: Focus indicator is visible, and all buttons can be activated with `Enter` or `Space`.  
+- **Actual Result**: [Pass/Fail]  
+
+**Test Case 2**  
+- **Scenario**: Verify ARIA labels on form fields  
+- **Steps**: Inspect HTML using dev tools  
+- **Expected Result**: Every input field has an appropriate ARIA label or HTML label tag  
+- **Actual Result**: [Pass/Fail]  
