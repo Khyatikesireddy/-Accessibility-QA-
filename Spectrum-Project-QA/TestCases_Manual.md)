@@ -1,0 +1,17 @@
+# Manual QA Test Cases – Spectrum Project
+
+**Test Case 1**  
+- **Scenario**: Verify SLA days assigned correctly based on user profile  
+- **Steps**:  
+  1. Submit a work request as "Admin" profile  
+  2. Check SLA field in request details  
+- **Expected Result**: SLA should match profile-specific rules  
+- **Actual Result**: [Pass/Fail]  
+
+**Test Case 2**  
+- **Scenario**: Verify ticket assignment by location and function  
+- **Steps**:  
+  1. Create a ticket for "US-East" location  
+  2. Submit request  
+- **Expected Result**: Ticket assigned to a user available in that region  
+- **Actual Result**: [Pass/Fail]  
